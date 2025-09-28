@@ -217,3 +217,16 @@
     - Нажимаем на кнопку анализа загрузки страницы (Analyze page load)
   expected-result: |
     Значение Speed index - меньше 3 секунд
+
+- summary: |
+    Проверка успешного выполнения запроса к серверу
+  requirement: |
+    При обновлении страницы интернет-магазина в DevTools во вкладке Network статус страницы меняется на 200 OK
+  prerequisites:
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+  steps:
+    - Открываем Devtools
+    - Нажимаем на вкладку Network
+    - Обновляем страницу сайта
+  expected-result: |
+    Статус страницы должен измениться на 200 OK
