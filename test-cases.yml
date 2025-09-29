@@ -151,7 +151,7 @@
     При изменении языка происходит корректная локализация на русский язык
   prerequisites:
     В браузере открыта страница https://products-store-ru.hexlet.app/
-    Язык интерфейса - English 
+    Язык - English 
   steps:
     Меняем язык с English на Russian 
   expected-result: |
