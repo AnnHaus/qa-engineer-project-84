@@ -1,1 +1,46 @@
+- summary: |
+    Сайт некорректно отображается на мобильных устройствах
+  environment: |
+    Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
+    ОС Windows 11 Home Single Language, version 24H2
+  steps-to-reproduce: |
+    - Зайти на страницу интернет-магазина https://products-store-ru.hexlet.app/
+    - Открыть Devtools
+    - Нажать на кнопку "Toggle device toolbar"
+    - Выбрать из списка мобильных устройств Samsung Galaxy S8+
+  expected-result: |
+    Страница должна отобразиться корректно: читаемый шрифт, контент не выходит за пределы ширины устройства, текст кнопок не выходит за их пределы.
+  actual-result: |
+    Страница отображается некорректно: контент выходит за пределы ширины устройства, текст кнопок выходит за их пределы.
+    
+- summary: |
+    Отсутствует локализация сайта на русский язык
+  environment: |
+    Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
+    ОС Windows 11 Home Single Language, version 24H2
+  steps-to-reproduce: |
+    В браузере открыть страницу https://products-store-ru.hexlet.app/
+    Изменить язык на Русский 
+  expected-result: |
+    Содержимое сайта переведено на русский язык
+  actual-result: |
+    Меняется только язык интерфейса
+    Содержимое сайта остается на английском языке
 
+- summary: |
+    Невозможно оформить заказ
+  environment: |
+    Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
+    ОС Windows 11 Home Single Language, version 24H2
+  steps-to-reproduce: |
+    - В браузере открыть страницу https://products-store-ru.hexlet.app/
+    - Открыть Devtools
+    - Перейти во вкладку Network
+    - Открыть корзину
+    - Нажать на кнопку "оформить заказ"
+  expected-result: |
+    На странице сайта появляется сообщение об успешном оформлении заказа
+    Во вкладке Network отображается статус 200 OK
+  actual-result: |
+    На странице сайта появляется сообщение об успешном оформлении заказа
+    Во вкладке Network отображается статус 500 Internal Server Error
