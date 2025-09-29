@@ -1,10 +1,14 @@
 ---
 - summary: |
     Проверка поиска товара по ключевому слову
-  status: pass
+  status: fail
 
 - summary: |
     Проверка возможности фильтрации товара
+  status: pass
+
+- summary: |
+    Проверка возможности сброса (удаления) категорий
   status: pass
 
 - summary: |
@@ -76,3 +80,30 @@ bugreports:
     actual-result: |
       В корзину возвращается ранее выбранный товар
       Удалить товары можно только с помощью кнопки "delete"
+
+- summary: |
+      Не работает поиск товара по ключевому слову
+    environment: |
+      Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
+      ОС Windows 11 Home Single Language, version 24H2
+    steps-to-reproduce: |
+      - Зайти на страницу интернет-магазина https://products-store-ru.hexlet.app/
+      - В поле поиска ввести слово "mascara"
+    expected-result: |
+      На странице появляется товар, соответствующий ключевому слову
+    actual-result: |
+      На странице ничего не происходит
+
+- summary: |
+      Не работает кнопка "В наличии"
+    environment: |
+      Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
+      ОС Windows 11 Home Single Language, version 24H2
+    steps-to-reproduce: |
+      - Зайти на страницу интернет-магазина https://products-store-ru.hexlet.app/
+      - Убрать галочку возле кнопки "В наличии"
+    expected-result: |
+      На странице меняется количество товаров
+      Товары, которые в наличии, не отображаются на странице
+    actual-result: |
+      Количество товаров меняется, но при этом один и тот же товар показан как в наличии, так и не в наличии
