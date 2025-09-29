@@ -2,10 +2,9 @@
 name: Anna Smirnova 
 job: QA Engineer
 level: junior
-email: ilona@hexlet.io
+email: anna5@hexlet.io
 description: |
-  Я врач, стоматолог
-  Я замужем, у меня собака и 2 кота
+  Я врач-стоматолог
 skills: 
   - функциональное тестирование
   - написание багрепортов
