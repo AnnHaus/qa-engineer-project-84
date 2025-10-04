@@ -34,6 +34,8 @@
     При нажатии на кнопку "Категории" можно выбрать пустую строку, что позволит сбросить категории
   prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/ 
+  test-data: |
+    Empty  
   steps:
     - Нажимаем на кнопку "Категории"
     - Выбираем категорию furniture
@@ -47,6 +49,8 @@
     При переходе на стартовую страницу интернет-магазина пользователь может просматривать товары
   prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/
+  test-data: |
+    Empty  
   steps:
     - Просматриваем товары с помощью колеса мышки или ползунка скроллбара
   expected-result: |
@@ -73,6 +77,8 @@
   prerequisites: |
     - В браузере открыта страница https://products-store-ru.hexlet.app/
     - Выбран товар: powder canister
+  test-data: |
+    Empty  
   steps:
     - Нажимаем на кнопку "Добавить в корзину"
   expected-result: |
@@ -84,6 +90,8 @@
     При переходе в корзину пользователь может просматривать ее содержимое
   prerequisites: |
     - В браузере открыта страница https://products-store-ru.hexlet.app/ 
+  test-data: |
+    Empty  
   steps:
     - Открываем вкладку "Корзина"
   expected-result: |
@@ -152,7 +160,9 @@
     При переключении язык интерфейса будет меняться
   prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/
-    Язык интерфейса - Russian 
+    Язык интерфейса - Russian
+  test-data: |
+    Empty  
   steps:
     - Меняем язык с Russian на English 
   expected-result: |
@@ -164,7 +174,9 @@
     При изменении языка происходит корректная локализация на русский язык
   prerequisites:
     В браузере открыта страница https://products-store-ru.hexlet.app/
-    Язык - English 
+    Язык - English
+  test-data: |
+    Empty  
   steps:
     Меняем язык с English на Russian 
   expected-result: |
@@ -176,6 +188,8 @@
     При открытии интернет-магазина в браузере загрузка домашней страницы происходит менее чем за 3 секунды
   prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/
+  test-data: |
+    Empty  
   steps:
     - Открываем DevTools
     - Нажимаем на инструмент Lighthouse (маяк)
@@ -189,6 +203,8 @@
     При обновлении страницы интернет-магазина в DevTools во вкладке Network статус страницы меняется на 200 OK
   prerequisites:
     В браузере открыта страница https://products-store-ru.hexlet.app/ 
+  test-data: |
+    Empty  
   steps:
     - Открываем Devtools
     - Нажимаем на вкладку Network
@@ -203,6 +219,8 @@
   prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/ 
     В корзине находится товар
+  test-data: |
+    Empty  
   steps:
     - Открываем Devtools
     - Переходим во вкладку Network
