@@ -16,7 +16,7 @@
     Проверка возможности фильтрации товара
   requirement: |
     При выборе нужных характеристик система выводит список товаров, соответствующих требованиям
-  prerequisites:
+  prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/
   test-data: |
     Характеристики товара: 
@@ -60,7 +60,7 @@
     Проверка возможности просмотра подробной информации о товаре
   requirement: |
     При нажатии на товар на экране появляется подробная информация о нем
-  prerequisites:
+  prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/
   test-data: |
     Выбранный товар - powder canister 
@@ -172,7 +172,7 @@
     Проверка возможности локализации сайта на русский язык 
   requirement: |
     При изменении языка происходит корректная локализация на русский язык
-  prerequisites:
+  prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/
     Язык - English
   test-data: |
@@ -201,7 +201,7 @@
     Проверка успешного выполнения запроса к серверу
   requirement: |
     При обновлении страницы интернет-магазина в DevTools во вкладке Network статус страницы меняется на 200 OK
-  prerequisites:
+  prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/ 
   test-data: |
     Empty  
