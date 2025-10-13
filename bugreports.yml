@@ -5,10 +5,10 @@
     Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
     ОС Windows 11 Home Single Language, version 24H2
   steps-to-reproduce: |
-    - Зайти на страницу интернет-магазина https://products-store-ru.hexlet.app/
-    - Открыть Devtools
-    - Нажать на кнопку "Toggle device toolbar"
-    - Выбрать из списка мобильных устройств Samsung Galaxy S8+
+    1. Зайти на страницу интернет-магазина https://products-store-ru.hexlet.app/
+    2. Открыть Devtools
+    3. Нажать на кнопку "Toggle device toolbar"
+    4. Выбрать из списка мобильных устройств Samsung Galaxy S8+
   expected-result: |
     Страница должна отобразиться корректно: читаемый шрифт, контент не выходит за пределы ширины устройства, текст кнопок не выходит за их пределы.
   actual-result: |
@@ -21,8 +21,8 @@
     Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
     ОС Windows 11 Home Single Language, version 24H2
   steps-to-reproduce: |
-    В браузере открыть страницу https://products-store-ru.hexlet.app/
-    Изменить язык на Русский 
+    1. В браузере открыть страницу https://products-store-ru.hexlet.app/
+    2. Изменить язык на Русский 
   expected-result: |
     Содержимое сайта переведено на русский язык
   actual-result: |
@@ -36,11 +36,11 @@
     Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
     ОС Windows 11 Home Single Language, version 24H2
   steps-to-reproduce: |
-    - В браузере открыть страницу https://products-store-ru.hexlet.app/
-    - Открыть Devtools
-    - Перейти во вкладку Network
-    - Открыть корзину
-    - Нажать на кнопку "оформить заказ"
+    1. В браузере открыть страницу https://products-store-ru.hexlet.app/
+    2. Открыть Devtools
+    3. Перейти во вкладку Network
+    4. Открыть корзину
+    5. Нажать на кнопку "оформить заказ"
   expected-result: |
     На странице сайта появляется сообщение об успешном оформлении заказа
     Во вкладке Network отображается статус 200 OK
@@ -55,10 +55,10 @@
     Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
     ОС Windows 11 Home Single Language, version 24H2
   steps-to-reproduce: |
-    - В браузере открыть страницу https://products-store-ru.hexlet.app/
-    - Нажать на кнопку "Категория"
-    - Выбрать категорию
-    - Снова нажать на кнопку "Категория"
+    1. В браузере открыть страницу https://products-store-ru.hexlet.app/
+    2. Нажать на кнопку "Категория"
+    3. Выбрать категорию
+    4. Снова нажать на кнопку "Категория"
   expected-result: |
     В перечне категорий появляется пустая строка для сброса 
   actual-result: |
@@ -72,8 +72,8 @@
     Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
     ОС Linux 22.04
   steps-to-reproduce: |
-    - В браузере открыть страницу https://products-store-ru.hexlet.app/
-    - Нажать на кнопку "Категория"
+    1. В браузере открыть страницу https://products-store-ru.hexlet.app/
+    2. Нажать на кнопку "Категория"
   expected-result: |
     При нажатии на "Категории" появляется список всех имеющихся в интернет-магазине категорий
   actual-result: |
