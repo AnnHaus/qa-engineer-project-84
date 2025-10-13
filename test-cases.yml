@@ -8,7 +8,7 @@
   test-data: |
     Ключевое слово - mascara
   steps:
-    В строку поиска вводим ключевое слово mascara
+    - В строку поиска вводим ключевое слово mascara
   expected-result: |
     На странице появляется товар, соответствующий ключевому слову
 
@@ -34,7 +34,7 @@
   test-data: |
     Категория: furniture
   steps:
-    В перечне характеристик выбираем категорию
+    - В перечне характеристик выбираем категорию
   expected-result: |
     На странице появляются товары, соответствующие выбранной категории
 
@@ -47,7 +47,7 @@
   test-data: |
     Диапазон цен: от 500 до 3000
   steps:
-    В перечне характеристик устанавливаем диапазон цен
+    - В перечне характеристик устанавливаем диапазон цен
   expected-result: |
     На странице появляются товары, соответствующие выбранному диапазону цены
 
@@ -60,7 +60,7 @@
   test-data: |
     Производитель - Dior
   steps:
-    В перечне характеристик выбираем производителя
+    - В перечне характеристик выбираем производителя
   expected-result: |
     На странице появляются товары, соответствующие выбранному производителю
 
@@ -129,8 +129,8 @@
   requirement: |
     При нажатии на кнопку "Добавить в корзину" товар перемещается в корзину
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/
-    - Выбран товар: powder canister
+    В браузере открыта страница https://products-store-ru.hexlet.app/
+    Выбран товар: powder canister
   test-data: |
     Empty  
   steps:
@@ -144,7 +144,7 @@
   requirement: |
     При нажатии на кнопку "Добавить в корзину" товар перемещается в корзину, а покупатель продолжает выбирать товары в каталоге
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/
+    В браузере открыта страница https://products-store-ru.hexlet.app/
   test-data: |
     Товар - Powder Canister  
   steps:
@@ -159,8 +159,8 @@
   requirement: |
     При нажатии на кнопку "Удалить" в корзине происходит удаление товаров
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - В корзине находится выбранный товар
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В корзине находится выбранный товар
   test-data: |
     Выбранный товар - Powder Canister  
   steps:
@@ -176,8 +176,8 @@
   requirement: |
     При нажатии на кнопку "Очистить корзину" в корзине происходит удаление всех товаров
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - В корзине находится выбранный товар
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В корзине находится выбранный товар
   test-data: |
     Выбранный товар - Powder Canister  
   steps:
@@ -193,8 +193,8 @@
   requirement: |
     После очистки корзины пользователь может нажать на кнопку "Продолжить покупки" и перейти обратно в магазин
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - В корзине находится выбранный товар
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В корзине находится выбранный товар
   test-data: |
     Выбранный товар - Powder Canister  
   steps:
@@ -209,8 +209,8 @@
   requirement: |
     Пользователь может нажать на кнопку "Продолжить покупки" в корзине и перейти обратно в магазин
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - В корзине находится выбранный товар
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В корзине находится выбранный товар
   test-data: |
     Выбранный товар - Powder Canister  
   steps:
@@ -224,8 +224,8 @@
   requirement: |
     После оформления заказа корзина становится пустой
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - В корзине находится выбранный товар
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В корзине находится выбранный товар
   test-data: |
     Выбранный товар - Powder Canister  
   steps:
@@ -241,8 +241,8 @@
   requirement: |
     После успешно оформленного заказа пользователь может закрыть окно заказа путем нажатия на кнопку "Закрыть"
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - В корзине находится выбранный товар
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В корзине находится выбранный товар
   test-data: |
     Выбранный товар - Powder Canister  
   steps:
@@ -258,8 +258,8 @@
   requirement: |
     После успешно оформленного заказа пользователь может закрыть окно заказа путем нажатия на крестик в правом верхнем углу окна
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - В корзине находится выбранный товар
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В корзине находится выбранный товар
   test-data: |
     Выбранный товар - Powder Canister  
   steps:
@@ -275,8 +275,8 @@
   requirement: |
     После нажатия на кнопку "В наличии" происходит изменение количества товаров в корзине
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - Кнопка "В наличии" не нажата, товары в каталоге не отображаются
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    Кнопка "В наличии" не нажата, товары в каталоге не отображаются
   test-data: |
     Empty
   steps:
@@ -289,7 +289,7 @@
   requirement: |
     После нажатия на кнопку "Следующая" страницы каталога по порядку сменяют друг друга
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
   test-data: |
     Empty 
   steps:
@@ -304,8 +304,8 @@
   requirement: |
     После нажатия на кнопку "Предыдущая" страницы каталога по порядку сменяют друг друга
   prerequisites: |
-    - В браузере открыта страница https://products-store-ru.hexlet.app/ 
-    - Мы находимся на последней странице каталога
+    В браузере открыта страница https://products-store-ru.hexlet.app/ 
+    Мы находимся на последней странице каталога
   test-data: |
     Empty 
   steps:
@@ -336,9 +336,9 @@
   prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/
   test-data: |
-    - Мобильное устройство - Samsung Galaxy S8+
-    - Категория beauty
-    - Производитель Essence
+    Мобильное устройство - Samsung Galaxy S8+
+    Категория beauty
+    Производитель Essence
   steps:
     - Открываем инструменты разработчика
     - Нажимаем на кнопку "Toggle device toolbar"
@@ -357,9 +357,9 @@
   prerequisites: |
     Открыт браузер Google Chrome
   test-data: |
-    - Адрес интернет-магазина https://products-store-ru.hexlet.app/
-    - Категория groceries
-    - Товар Apple
+    Адрес интернет-магазина https://products-store-ru.hexlet.app/
+    Категория groceries
+    Товар Apple
   steps:
     - В адресной строке браузера вводим адрес интернет-магазина
     - Нажимаем Enter
@@ -378,9 +378,9 @@
   prerequisites: |
     Открыт браузер Safari
   test-data: |
-    - Адрес интернет-магазин https://products-store-ru.hexlet.app/
-    - Категория groceries
-    - Товар Apple
+    Адрес интернет-магазин https://products-store-ru.hexlet.app/
+    Категория groceries
+    Товар Apple
   steps:
     - В адресной строке браузера вводим адрес интернет-магазина
     - Нажимаем Enter
@@ -399,9 +399,9 @@
   prerequisites: |
     Открыт браузер Firefox
   test-data: |
-    - Адрес интернет-магазина https://products-store-ru.hexlet.app/
-    - Категория groceries
-    - Товар Apple
+    Адрес интернет-магазина https://products-store-ru.hexlet.app/
+    Категория groceries
+    Товар Apple
   steps:
     - В адресной строке браузера вводим адрес интернет-магазина
     - Нажимаем Enter
@@ -421,8 +421,8 @@
     В браузере открыта страница https://products-store-ru.hexlet.app/
     Язык интерфейса - английский
   test-data: |
-    - Категория beauty
-    - Товар Powder Canister
+    Категория beauty
+    Товар Powder Canister
   steps:
     - Меняем язык с английского на русский
     - Выбираем категорию
@@ -440,8 +440,8 @@
     В браузере открыта страница https://products-store-ru.hexlet.app/
     Язык интерфейса - русский
   test-data: |
-    - Категория beauty
-    - Товар Powder Canister
+    Категория beauty
+    Товар Powder Canister
   steps:
     - Меняем язык с русского на английский
     - Выбираем категорию
@@ -574,9 +574,8 @@
   prerequisites: |
     В браузере открыта страница https://products-store-ru.hexlet.app/ 
   test-data: |
-    Необходимые товары:
-    - Powder Canister - 4 штуки
-    - Apple - 5 штук
+    Powder Canister - 4 штуки
+    Apple - 5 штук
   steps:
     - Находим товар Powder Canister по ключевому слову
     - Открываем карточку товара
