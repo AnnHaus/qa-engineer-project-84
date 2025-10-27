@@ -93,9 +93,10 @@
   actual-result: |
     При нажатии на "Категории" появляется только несколько категорий
     Остальные категории товаров видны только при перелистывании страниц каталога
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/bd93ed6decab4dcb95ff2bb44e25bd278ff9a56e/screenshots/%D0%9D%D0%B5%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B9.mp4
 
 - summary: |
-    Отсутствует автоматическая фильтрация производиетелй в зависимости от категории
+    Отсутствует автоматическая фильтрация производителей в зависимости от категории
   environment: |
     Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
     ОС Windows 11 Home Single Language, version 24H2
@@ -107,6 +108,7 @@
     Атоматически фильтруется и выводится список соответствующих производителей
   actual-result: |
     Список производителей не меняется и не соответствует выбранной категории
+    Ссылка на скриншот https://github.com/AnnHaus/qa-engineer-project-84/blob/fa2f8f89a36b1e2edc138b10e3eceb144648cb09/screenshots/%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%B2%20%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8%20%D0%BE%D1%82%20%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8.png
 
 - summary: |
     Не отображается рейтинг в превью товаров при просмотре каталога
@@ -120,9 +122,10 @@
   actual-result: |
     Рейтинг в превью товаров не выводится
     Отображается только название, цена со скидкой и без нее
+    Ссылка на скриншот https://github.com/AnnHaus/qa-engineer-project-84/blob/17b46400cc2a203d8c5fb2508e5108f40e4cb532/screenshots/%D0%9D%D0%B5%20%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D1%80%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%20%D0%B2%20%D0%BF%D1%80%D0%B5%D0%B2%D1%8C%D1%8E%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0.png
 
 - summary: |
-    Кликабельная область больше рамки карточки товара
+    Ошибка при просмотре карточки товара: кликабельная область больше рамки карточки товара
   environment: |
     Google Chrome 140.0.7339.208 (Официальная сборка) (64 бит)
     ОС Windows 11 Home Single Language, version 24H2
@@ -146,6 +149,7 @@
     Карточка товара открывается и при нажатии на сам товар, и при нажатии на область за рамкой товара
     При нажатии на карточку товара в разделе Click Devtools отбражен код a.text-decoration-none index-AI0ZCGhr.js:68
     При нажатии на область рядом с карточкой товара в разделе Click Devtools отображается также код a.text-decoration-none index-AI0ZCGhr.js:68
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/c155875509ad6f6c86417d5b68dd2228a4f0835b/screenshots/%D0%9A%D0%BB%D0%B8%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%20%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5%20%D1%80%D0%B0%D0%BC%D0%BA%D0%B8%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B8%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0.mp4
     
 - summary: |
     Невозможно очистить корзину с помощью кнопки "Очистка корзины"
@@ -164,6 +168,7 @@
     Корзина остается пустой
   actual-result: |
     В корзину возвращаются ранее удаленные товары
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/69b243646f7c571606f66b13e7e45811786fa793/screenshots/%D0%9D%D0%B5%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%83%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20%D1%81%D0%BE%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D1%83%D1%8E%D1%89%D0%B5%D0%B9%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8.mp4
 
 - summary: |
     Корзина автоматически не очищается после оформления заказа
@@ -183,6 +188,7 @@
   actual-result: |
     Товары остаются в корзине
     Во вкладке Network отображается статус 500 Internal Server Error
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/aa437906639cf638733f8af96404272dc5f10d90/screenshots/%D0%9A%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%20%D0%BD%D0%B5%20%D0%BE%D1%87%D0%B8%D1%89%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%20%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0.mp4
 
 - summary: |
     Невозможно закрыть окно оформления заказа с помощью кнопки Х
@@ -200,6 +206,7 @@
     Окно оформления заказа закрыто
   actual-result: |
     При нажатии на кнопку Х ничего не происходит
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/717e67436c557b7eb061ecdee9f2fa4df68cfdfb/screenshots/%D0%9D%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0%20%D0%A5.mp4
 
 - summary: |
     Колонка с перечнем производителей содержит пустые графы
@@ -213,7 +220,8 @@
     Колонка "Производители" отображает всех имеющихся на сайте производителей товаров
   actual-result: |
     В колонке "Производители" имеются пустые графы, при нажатии на которые фильтруются разные товары
-
+    Ссылка на скриншот https://github.com/AnnHaus/qa-engineer-project-84/blob/e9440d9992fa7f924034a08d2bdcb16430802185/screenshots/%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D0%BA%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82%20%D0%BF%D1%83%D1%81%D1%82%D1%8B%D0%B5%20%D0%B3%D1%80%D0%B0%D1%84%D1%8B.png
+    
 - summary: |
     Невозможно перейти на страницу оплаты после оформления заказа
   environment: |
@@ -249,6 +257,7 @@
     Ничего не происходит
     Хэштег неактивен
     В адресной строке добавляется знак хэштега
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/ee3f42c83250ea4efedb441247662e4625db9f6a/screenshots/%D0%A5%D1%8D%D1%88%D1%82%D0%B5%D0%B3%20%D0%B2%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B5%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0%20%D0%BD%D0%B5%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B5%D0%BD.mp4
 
 - summary: |
     Во вкладке Cookies отсутствует информация о корзине пользователя
@@ -285,6 +294,7 @@
   actual-result: |
     Иконка русского языка отображена в виде флага России
     Иконка английского языка сломана, не отображается
+    Ссылка на скриншот https://github.com/AnnHaus/qa-engineer-project-84/blob/a2dd7d4b99e70bbc3f44cef25a50d252d4d144ad/screenshots/%D0%98%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0%20%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%B0%20%D0%BD%D0%B5%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%BE%20%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B0%D0%B5%D1%82%D1%81%D1%8F.png
 
 - summary: |
     Некорректное отображение разных товаров в корзине
@@ -301,10 +311,9 @@
     7. Выбрать Inspect
   expected-result: |
     Товары в корзине выровнены по горизонтали и вертикали
-    В Devtools во вкладке Elements используется тег <div> с атрибутом class
   actual-result: |
     Отсутствует выравнивание элементов в корзине по вертикали
-    В Devtools во вкладке Elements отсутствует тег <div> с атрибутом class
+    Ссылка на скриншот https://github.com/AnnHaus/qa-engineer-project-84/blob/eea973bb1b8fda2900c2788d00c77a92b77c1007/screenshots/%D0%9D%D0%B5%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%B2%20%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B5.png
 
 - summary: |
     Некорректная работа строки поиска на разных страницах каталога
@@ -325,6 +334,7 @@
     На главное странице магазина фильтруется только один товар из всех, соответствующих поиску
     На одной странице не отображаются все товары, соответствующие поиску
     При вводе ключевого слова на других страницах каталога список товаров меняется
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/9a9be8d3ae05783f3e44d664b5842d35da84d5b8/screenshots/%D0%A1%D1%82%D1%80%D0%BE%D0%BA%D0%B0%20%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D1%85%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85%20%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%B0.mp4
 
 - summary: |
     Некорректная навигация по каталогу с помощью кнопки "Предыдущая"
@@ -343,3 +353,4 @@
   actual-result: |
     При нажатии на кнопку "Предыдущая" порядок страниц меняется
     Перечень товаров при нажатии на кнопку "Предыдущая" постоянно меняется
+    Ссылка на видео https://github.com/AnnHaus/qa-engineer-project-84/blob/c9ba26b6a2032b2b1c47e174ca684ad9e0aae152/screenshots/%D0%9D%D0%B5%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B8%20%D0%9F%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B0%D1%8F.mp4
