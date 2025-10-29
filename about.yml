@@ -1,12 +1,12 @@
 ---
-name: Anna Smirnova
-job: QA Engineer
-level: junior
-email: annadoctor8949@gmail.com
-description: |
- По первому образованию я медсестра и врач. Замужем, играю на гитаре, воспитываю пса Зевса и двух котов-братьев.
- Детей нет, и мы не планируем их заводить.
-skills: 
+ name: Anna Smirnova
+ job: QA Engineer
+ level: junior
+ email: annadoctor8949@gmail.com
+ description: |
+   По первому образованию я медсестра и врач. Замужем, играю на гитаре, воспитываю пса Зевса и двух котов-братьев.
+   Детей нет, и мы не планируем их заводить.
+ skills: 
   - функциональное тестирование
   - написание багрепортов
   - Linux
